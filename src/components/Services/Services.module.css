@@ -1,0 +1,54 @@
+.services {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    padding: 100px 80px;
+    min-height: 100vh;
+    background: url('camera2.jpg') no-repeat center center/cover;
+    color: white;
+    direction: rtl;
+    
+}
+
+.services h2 {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 90px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: white;
+}
+
+/* الحاوية الرئيسية للخدمات */
+.servicesContainer {
+    display: flex; /* عرض الحاوية كصف أفقي */
+    justify-content: space-between; /* توزيع الخدمات بالتساوي */
+    align-items: flex-start; /* المحاذاة من الأعلى */
+    gap: 20px; /* المسافة بين العناصر */
+    flex-wrap: wrap; /* السماح بتقسيم العناصر إلى سطور إذا لم تكفِ الشاشة */
+}
+
+/* تصميم كل خدمة */
+.service {
+    flex: 1; /* جميع العناصر تأخذ نفس المساحة */
+    padding: 20px;
+    text-align: right; /* النصوص والأيقونات في المنتصف */
+    max-width: 300px; /* تحديد عرض مناسب للخدمة */
+    min-width: 200px; /* ضمان ظهور العنصر بحجم معقول في الشاشات الصغيرة */
+}
+
+.service img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 16px;
+    color: #ddd;
+    line-height: 1.6;
+}

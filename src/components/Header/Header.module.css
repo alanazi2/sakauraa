@@ -1,0 +1,59 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+body {
+    direction: rtl;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: none;
+    position: relative;
+}
+
+/* الشعار */
+.logo {
+    
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(255, 255, 255); 
+    position: absolute;
+    left: 40px;
+}
+/* العناوين  */
+nav ul {
+   
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+   
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul li a {
+   
+    text-decoration: none;
+    color: black; 
+}
+
+
+header {
+    background: url('camera-background.jpg') no-repeat center center/cover;
+    background-attachment: fixed; /* تأكيد عدم تحرك الخلفية */
+    
+}
